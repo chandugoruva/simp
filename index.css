@@ -1,0 +1,423 @@
+.main-bg {
+    background-image: url("https://res.cloudinary.com/dqbkkteel/image/upload/v1697731024/img1_d3e8ph.jpg");
+    height: 100vh;
+    background-size: cover;
+    width: 100vw;
+}
+
+.navbar {
+    background-color: #ffffff;
+    height: 8vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.nav-item {
+    color: #1e1921;
+    font-size: 18px;
+    /* font-family:"Roboto"; */
+    margin-right: 16px;
+}
+
+.dial-button {
+    border: #1e1921 2px solid;
+    border-radius: 50%;
+    padding: 4px;
+    margin-right: 10px;
+}
+
+.cart {
+    font-size: 18px;
+}
+
+.lorem-bg {
+    background-color: rgba(300, 105, 120, 0.5);
+    height: 30%;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    margin-left: 5%;
+    margin-right: 50%;
+    padding: 2.5%;
+    width: 60%;
+    color: #ffffff;
+}
+
+.lorem-heading {
+    font-size: 30px;
+    font-family: "Roboto";
+    ;
+}
+
+.lorem-text {
+    font-size: 14px;
+    font-family: "Roboto";
+    color: #ebe9e4;
+}
+
+@media screen and (max-width:575px) {
+    .lorem-bg {
+        background-color: rgba(300, 105, 120, 0.5);
+        height: 120px;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 50%;
+        padding: 2.5%;
+        width: 60%;
+        color: #ffffff;
+    }
+
+    .lorem-heading {
+        font-size: 20px;
+        font-family: "Roboto";
+        ;
+    }
+
+    .lorem-text {
+        font-size: 10px;
+        font-family: "Roboto";
+        color: #ebe9e4;
+    }
+
+    .nav-item {
+        color: #1e1921;
+        font-size: 10px;
+        /* font-family:"Roboto"; */
+        margin-right: 13px;
+    }
+
+    .dial-button {
+        border: #1e1921 2px solid;
+        border-radius: 50%;
+
+
+    }
+
+    .call {
+        font-size: 10px;
+    }
+
+    .cart {
+        font-size: 13px;
+    }
+
+    .dial-button {
+        border: #1e1921 2px solid;
+        border-radius: 50%;
+        /* padding: 4px; */
+
+    }
+}
+
+@media screen and (min-width:768px) {
+    .lorem-bg {
+        background-color: rgba(300, 105, 120, 0.5);
+        height: 160px;
+        margin-top: 20%;
+        margin-bottom: 10%;
+        margin-left: 5%;
+        margin-right: 50%;
+        padding: 2.5%;
+        width: 60%;
+        color: #ffffff;
+    }
+
+    .lorem-heading {
+        font-size: 40px;
+        font-family: "Roboto";
+        ;
+    }
+
+    .lorem-text {
+        font-size: 18px;
+        font-family: "Roboto";
+        color: #ebe9e4;
+    }
+
+    .nav-item {
+        color: #1e1921;
+        font-size: 26px;
+        /* font-family:"Roboto"; */
+        margin-right: 20px;
+    }
+
+    .dial-button {
+        border: #1e1921 2px solid;
+        border-radius: 50%;
+        margin-right: 40px;
+
+
+    }
+
+    .cart {
+        font-size: 20px;
+    }
+}
+
+.footer-bg {
+    background-image: linear-gradient(to right, #fa4bae, #f5e14c);
+    height: 10vh;
+    width: 100vw;
+}
+
+.order-now-bg {
+    background-image: linear-gradient(to right, #fa4bae, #f5e14c);
+    height: 80vh;
+    width: 100vw;
+    margin-top: 13px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+}
+
+.order-now-heading {
+    color: #ffffff;
+    font-family: "Roboto";
+}
+
+.items-main-bg {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.item-bg {
+    background-color: #ffffff;
+    height: 50%;
+    width: 160px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 10px;
+    padding-bottom: 10px;
+}
+
+
+.item-image {
+    height: 140px;
+    width: 140px;
+    margin-top: 10px;
+    border-top-right-radius: 50px;
+}
+
+.item-name {
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.description {
+    color: #121111;
+    margin-left: 20px;
+    font-family: "Roboto";
+    font-size: 14px;
+}
+
+.order-button {
+    background-color: #d9dede;
+    height: 30px;
+    width: 130px;
+    border-radius: 10px;
+    border-width: 0px;
+    color: #000000;
+    font-family: "Roboto";
+    font-weight: 600;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+@media screen and (max-width:575px) {
+    .item-bg {
+        background-color: #ffffff;
+        height: 180px;
+        width: 220px;
+        border-top-right-radius: 30px;
+        border-bottom-left-radius: 30px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .item-image {
+        height: 90px;
+        width: 90px;
+        margin-top: 10px;
+        border-top-right-radius: 30px;
+    }
+
+    .item-name {
+        color: #000000;
+        font-family: "Roboto";
+        font-weight: 600;
+        font-size: 10px;
+    }
+
+    .description {
+        color: #121111;
+        margin-left: 10px;
+        font-family: "Roboto";
+        font-size: 8px;
+    }
+
+    .order-now-heading {
+        color: #ffffff;
+        font-family: "Roboto";
+        font-size: 20px;
+    }
+
+    .order-button {
+        background-color: #d9dede;
+        height: 20px;
+        width: 80px;
+        border-radius: 10px;
+        border-width: 0px;
+        color: #000000;
+        font-family: "Roboto";
+        font-weight: 600;
+        font-size: 10px;
+        margin-top: 40px;
+    }
+}
+
+/* @media screen and (min-width:768px){
+    .item-image{
+    height:200px;
+    width:200px;
+    margin-top:10px;
+     border-top-right-radius:50px;
+}
+.item-name{
+    color:#000000;
+    font-family:"Roboto";
+    font-weight:600;
+    font-size:20px;
+}
+.description{
+    color:#121111;
+    margin-left:20px;
+    font-family:"Roboto";
+    font-size:18px;
+}
+.order-button{
+    background-color:#d9dede;
+    height:40px;
+    width:160px;
+    border-radius:10px;
+    border-width:0px;
+     color:#000000;
+    font-family:"Roboto";
+    font-weight:600;
+    font-size:20px;
+    margin-top:40px;
+}
+} */
+
+@media screen and (min-width:768px) {
+    .item-bg {
+        background-color: #ffffff;
+        height: 50%;
+        width: 260px;
+        border-top-right-radius: 50px;
+        border-bottom-left-radius: 50px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-right: 10px;
+        padding-bottom: 10px;
+    }
+
+    .order-now-bg {
+        background-image: linear-gradient(to right, #fa4bae, #f5e14c);
+        height: 100%;
+        width: 100vw;
+        margin-top: 13px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+    }
+
+}
+
+@media screen and (min-width:768px) {
+    .item-image {
+        height: 190px;
+        width: 230px;
+        margin-top: 10px;
+        border-top-right-radius: 50px;
+    }
+
+    .item-name {
+        color: #000000;
+        font-family: "Roboto";
+        font-weight: 600;
+        font-size: 20px;
+    }
+
+    .description {
+        color: #121111;
+        margin-left: 20px;
+        font-family: "Roboto";
+        font-size: 18px;
+    }
+
+    .order-button {
+        background-color: #d9dede;
+        height: 40px;
+        width: 160px;
+        border-radius: 10px;
+        border-width: 0px;
+        color: #000000;
+        font-family: "Roboto";
+        font-weight: 600;
+        font-size: 20px;
+        margin-top: 40px;
+    }
+}
+
+
+
+
+
+/* .item-image{
+    height:140px;
+    width:140px;
+    margin-top:10px;
+     border-top-right-radius:50px;
+ }
+ 
+ .item-name{
+    color:#000000;
+    font-family:"Roboto";
+    font-weight:600;
+    font-size:18px;
+ }
+ .description{
+    color:#121111;
+    margin-left:20px;
+    font-family:"Roboto";
+    font-size:14px;
+ }
+ .order-button{
+    background-color:#d9dede;
+    height:30px;
+    width:130px;
+    border-radius:10px;
+    border-width:0px;
+     color:#000000;
+    font-family:"Roboto";
+    font-weight:600;
+    font-size:18px;
+    margin-top:40px;
+ } */
